@@ -1,0 +1,124 @@
+body, html {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Overpass', sans-serif !important;
+  transition: all 200ms linear;
+}
+
+#container {
+  height: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121417;
+}
+
+.component-wrapper {
+  background-color: #252d37;
+  padding: 18px;
+  border-radius: 25px;
+  height: 350px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 5%;
+}
+
+.component-text{
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.component-subtext{
+  letter-spacing: 1px;
+  color: hsl(217, 12%, 63%);
+  word-spacing: 2px;
+  font-weight: 700;
+}
+
+.rating_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+#illustration_bg_container{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#illustration_bg_container #illustration_bg{
+  margin: 0 2px
+}
+
+#illustration_bg,
+.rating_container div{
+  background-color: hsl(213, 19%, 22%);
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 12px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: hsl(217, 12%, 63%);
+}
+
+.rating_container div:hover{
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+  cursor: pointer;
+}
+
+.rating_container div:active{
+ color: white;
+background-color: hsl(25, 97%, 53%);
+}
+
+.btn{
+  border-radius: 20px;
+  border: none;
+  margin-top: 6%;
+  margin-bottom: 2%;
+  padding: 4% 0;
+  font-family: 'Overpass', sans-serif !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.btn:hover{
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+  transition: all 200ms linear;
+  cursor: pointer;
+}
+
+/*Second box*/
+.text-center{
+  text-align: center;
+}
+#illustration_bg_container_thanks{
+  text-align: center;
+}
+
+.component__thanks{
+  background-color: hsl(213, 19%, 22%);
+  color: hsl(25, 97%, 53%);
+  padding: 4px 10px;
+  border-radius: 12px;
+  margin: 1% auto;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
