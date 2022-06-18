@@ -42,7 +42,7 @@ submitButton.addEventListener('click', () => {
             </div>
             <p class="component__thanks">You selected ${rating} out of 5</p>
             <p class="component-text text-center">Thank You</p>
-            <p class="component-subtext"> We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch.</p>
+            <p class="component-subtext text-center"> We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch.</p>
 
         </div>
     `;
